@@ -1,0 +1,2 @@
+# clog
+Quarantine Cooking Log
