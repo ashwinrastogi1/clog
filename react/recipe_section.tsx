@@ -32,7 +32,7 @@ export class RecipeSection extends React.PureComponent<RecipeSectionProps, Recip
                     {this.props.title}
                 </SectionHeader>
                 <ul>
-                    {this.props.steps.map((step: string) => <li>step</li>)}
+                    {this.state.isHiddenByUser ? null : this.props.steps.map((step: string) => <li>step</li>)}
                 </ul>
             </div>
         );
