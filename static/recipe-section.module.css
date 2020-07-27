@@ -1,0 +1,16 @@
+.recipe_section {
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+    background-color: beige;
+}
+
+.recipe_section .section_header {
+    display: flex;
+    flex-direction: row;
+    background-color: inherit;
+}
+
+.recipe_section .section_hide {
+    margin-left: auto;
+}

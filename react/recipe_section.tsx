@@ -1,5 +1,6 @@
 import React from 'react';
 import { SectionHeader } from './section_header';
+import style from '../static/recipe-section.module.css'
 
 export interface RecipeSectionProps {
     title: string;
@@ -23,7 +24,7 @@ export class RecipeSection extends React.PureComponent<RecipeSectionProps, Recip
 
     render() {
         return (
-            <div className={'recipe-section'}>
+            <div className={style.recipe_section}>
                 <SectionHeader
                     isHiddenByUser={this.state.isHiddenByUser}
                     onButtonClick={() => {this.setState({isHiddenByUser: !this.state.isHiddenByUser})}}
