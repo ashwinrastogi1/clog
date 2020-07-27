@@ -1,5 +1,6 @@
 import React from 'react';
 import Button from 'react-bootstrap/Button'
+import styles from './styles/recipe-section.modules.css'
 
 export interface SectionHeaderProps {
     isHiddenByUser: boolean;
@@ -16,7 +17,7 @@ export class SectionHeader extends React.PureComponent<SectionHeaderProps> {
             <div>
                 {this.props.children}
                 <Button onClick={(event) => this.props.onButtonClick()}>
-                    {this.props.isHiddenByUser ? 'Show' : 'Hide'}
+                    <span>{this.props.isHiddenByUser ? 'Show' : 'Hide'}</span>
                 </Button>
             </div>
         );

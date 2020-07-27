@@ -23,7 +23,7 @@ export class RecipeSection extends React.PureComponent<RecipeSectionProps, Recip
 
     render() {
         return (
-            <div>
+            <div className={'recipe-section'}>
                 <SectionHeader
                     isHiddenByUser={this.state.isHiddenByUser}
                     onButtonClick={() => {this.setState({isHiddenByUser: !this.state.isHiddenByUser})}}
