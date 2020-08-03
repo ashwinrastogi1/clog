@@ -4,7 +4,7 @@
     text-align: left;
     background-color: beige;
     border: 1px solid black;
-    border-radius: 15px;
+    border-radius: 5px;
 }
 
 .recipe_section .section_header {
@@ -16,18 +16,14 @@
 }
 
 .recipe_section .section_open {
-    border-top-left-radius: 15px;
-    border-top-right-radius: 15px;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
 }
 
 .recipe_section .section_hidden {
-    border-radius: 15px;
+    border-radius: 5px;
 }
 
 .recipe_section .section_hide {
     margin-left: auto;
-}
-
-.recipe_section .title_text {
-    font-size: 24px;
 }

@@ -1,5 +1,6 @@
 import React from 'react';
 import Button from 'react-bootstrap/Button';
+import {Title} from './typography';
 import classNames from 'classnames'
 import style from '../static/recipe-section.module.css';
 
@@ -21,7 +22,7 @@ export class SectionHeader extends React.PureComponent<SectionHeaderProps> {
         });
         return (
             <div className={headerClasses}>
-                <div className={style.title_text}>{this.props.children}</div>
+                <Title variant={'large'}>{this.props.children}</Title>
                 <Button onClick={(event) => this.props.onButtonClick()} className={style.section_hide}>
                     <span>{this.props.isHiddenByUser ? 'Show' : 'Hide'}</span>
                 </Button>

@@ -1,6 +1,7 @@
 import React from 'react';
 import { SectionHeader } from './section_header';
 import style from '../static/recipe-section.module.css'
+import {Text} from './typography'
 import cx from 'classnames';
 
 export interface RecipeSectionProps {
@@ -32,9 +33,9 @@ export class RecipeSection extends React.PureComponent<RecipeSectionProps, Recip
                 >
                     {this.props.title}
                 </SectionHeader>
-                {this.state.isHiddenByUser ? null : <ol>
-                    {this.props.steps.map((step: string) => <li>step</li>)}
-                </ol>}
+                {this.state.isHiddenByUser ? null : <ul>
+                    {this.props.steps.map((step: string) => (<Text>{step}</Text>))}
+                </ul>}
             </div>
         );
     }

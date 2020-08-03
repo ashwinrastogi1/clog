@@ -1,0 +1,36 @@
+@import url("https://use.typekit.net/omi6lqo.css");
+
+.small_text {
+    font-family: nimbus-sans, sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 12px;
+}
+
+.standard_text {
+    font-family: nimbus-sans, sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 14px;
+}
+
+.large_text {
+    font-family: nimbus-sans, sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 18px;
+}
+
+.standard_title {
+    font-family: nimbus-sans, sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 20px;
+}
+
+.large_title {
+    font-family: nimbus-sans, sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 24px;
+}

@@ -8,7 +8,7 @@ export default class BlogPost extends React.PureComponent {
 
     render() {
         return (
-            <RecipeSection title={'Section'} onSectionComplete={() => {}} steps={['step1', 'step2']}/>
+            <RecipeSection title={'Section'} onSectionComplete={() => {}} steps={['Gonchu patel', 'khopdi meh tel']}/>
         );
     }
 }

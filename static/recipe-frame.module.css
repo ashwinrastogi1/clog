@@ -1,0 +1,10 @@
+.recipe_outer_frame {
+    display: flex;
+    flex-direction: row;
+    flex: 1 1 auto;
+}
+
+.recipe_outer_frame .recipe_widget_frame {
+    display: flex;
+    flex-direction: column;
+}
