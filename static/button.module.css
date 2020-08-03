@@ -1,0 +1,12 @@
+.button_frame {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-bottom: 1px solid gray;
+    background-color: inherit;
+    cursor: pointer;
+}
+
+.button_frame:hover {
+    border-bottom: 2px solid black;
+}
